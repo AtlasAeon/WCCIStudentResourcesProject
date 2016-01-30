@@ -1,0 +1,6 @@
+c:\users\we can code it\documents\visual studio 2015\Projects\WCCIStudentResourcesProject\WCCIStudentResourcesProject\bin\Debug\WCCIStudentResourcesProject.exe.config
+c:\users\we can code it\documents\visual studio 2015\Projects\WCCIStudentResourcesProject\WCCIStudentResourcesProject\bin\Debug\WCCIStudentResourcesProject.exe
+c:\users\we can code it\documents\visual studio 2015\Projects\WCCIStudentResourcesProject\WCCIStudentResourcesProject\bin\Debug\WCCIStudentResourcesProject.pdb
+c:\users\we can code it\documents\visual studio 2015\Projects\WCCIStudentResourcesProject\WCCIStudentResourcesProject\obj\Debug\WCCIStudentResourcesProject.csprojResolveAssemblyReference.cache
+c:\users\we can code it\documents\visual studio 2015\Projects\WCCIStudentResourcesProject\WCCIStudentResourcesProject\obj\Debug\WCCIStudentResourcesProject.exe
+c:\users\we can code it\documents\visual studio 2015\Projects\WCCIStudentResourcesProject\WCCIStudentResourcesProject\obj\Debug\WCCIStudentResourcesProject.pdb
