@@ -1,0 +1,10 @@
+ASP.NET MVC 5|1
+C# Player's guide|1
+Database Manipulation for Mere Mortals|1
+Eloquent Javascript|1
+HTML & CSS|1
+Javascript & Jquery|1
+Javascript Can Do Backend Too?|1
+Javascript for Dummies|1
+Javascript: The Good Parts|1
+SQL for Mere Mortals|1
