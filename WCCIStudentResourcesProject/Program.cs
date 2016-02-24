@@ -99,7 +99,7 @@ namespace WCCIStudentResourcesProject {
                 }
                 counter++;
             }
-            Console.WriteLine("Whould you like to see all checked out resources? (y/n)");
+            Console.WriteLine("Would you like to see all checked out resources? (y/n)");
             string userAnswer = Console.ReadLine().ToLower();
             switch (userAnswer) {
                 case "y":
@@ -113,7 +113,7 @@ namespace WCCIStudentResourcesProject {
                     Console.WriteLine("Invalid input.");
                     break;
             }
-            Menu();
+            Menu(); 
         }
 
         static void WriteStudentFile(string studentAccount) {
@@ -122,8 +122,8 @@ namespace WCCIStudentResourcesProject {
             accountBuilder.Append(".txt");
             string studentAccountTxt = accountBuilder.ToString();
             int idCounter;
-            using (StreamReader reader = new StreamReader("ID.txt")) {
-                idCounter = int.Parse(reader.ReadLine());
+            using (StreamReader idCounterReader = new StreamReader("ID.txt")) {
+                idCounter = int.Parse(idCounterReader.ReadLine());
             }
             if (!File.Exists(studentAccountTxt)) {
                 using (StreamWriter studentFileWriter = new StreamWriter(studentAccountTxt)) {
@@ -313,9 +313,11 @@ namespace WCCIStudentResourcesProject {
                 }
                 counter++;
             }
+            Console.WriteLine("Please enter your student name.");
             string accountName = StudentName(Console.ReadLine());
             ViewStudentFile(accountName);
             if (accountName != "Student not found") {
+                Console.WriteLine("Please enter the resource to be checked out.");
                 string resourceName = ResourceName(Console.ReadLine());
                 if (resourceName != "Resource not found") {
                     int resourceNum = Resources[resourceName];
